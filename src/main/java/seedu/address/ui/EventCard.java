@@ -30,7 +30,7 @@ public class EventCard extends UiPart<Region> {
     @FXML
     private HBox cardPane;
     @FXML
-    private Label event_title;
+    private Label eventTitle;
     @FXML
     private Label date;
     @FXML
@@ -57,7 +57,7 @@ public class EventCard extends UiPart<Region> {
         super(FXML);
         this.event = event;
         id.setText(displayedIndex + ". ");
-        event_title.setText(event.getEventTitle());
+        eventTitle.setText(event.getEventTitle());
         date.setText(event.getDate());
         time.setText(event.getTime());
         purpose.setText(event.getPurpose());
