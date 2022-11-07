@@ -49,6 +49,7 @@ public class StatsWindow extends UiPart<Stage> {
         chart.setData(newData);
         for (Node node : chart.lookupAll(".chart-legend-item")) {
             if (node instanceof Label) {
+                
                 Label legendElement = (Label) node;
                 legendElement.setWrapText(true);
                 legendElement.setManaged(true);
@@ -56,7 +57,7 @@ public class StatsWindow extends UiPart<Stage> {
             }
         }
     }
- 
+
     /**
      * Shows the stats window.
      * @throws IllegalStateException
