@@ -56,7 +56,7 @@ public class StatsWindow extends UiPart<Stage> {
             }
         }
     }
-
+ 
     /**
      * Shows the stats window.
      * @throws IllegalStateException
